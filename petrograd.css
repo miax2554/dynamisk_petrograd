@@ -1,0 +1,53 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
+.billedtekst {
+	position: absolute;
+	top: 16vw;
+	left: 24vw;
+	color: white;
+	font-size: 66px;
+}
+
+.tekst {
+	margin-top: 0.5vw;
+}
+
+.billede {
+	background: url("") no-repeat center center;
+	background-size: cover;
+	height: 250px;
+	margin-top: 2vw;
+}
+
+.menu_et {
+	background-image: url(imgs/medium/ringbroed-druer-md.jpg);
+}
+
+.menu_to {
+	background-image: url(imgs/medium/rodbede-cabanossi-md.jpg);
+}
+
+.menu_tre {
+	background-image: url(imgs/medium/caviarbruschetta-md.jpg);
+}
+
+button.modalknap {
+	color: #fe3d12;
+}
+
+.navbar-nav {
+	background-color: white;
+	position: absolute;
+	left: 29vw;
+}
+
+.navbar-header {
+	background-color: white;
+}

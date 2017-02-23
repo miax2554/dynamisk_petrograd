@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Restaurant Petrograd</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0">
+
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link href="petrograd.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="#forretter">FORRETTER</a></li>
+						<li><a href="#hovedretter">HOVEDRETTER</a></li>
+						<li><a href="#desserter">DESSERTER</a></li>
+						<li><a href="#drikkevarer">DRIKKEVARER</a></li>
+						<li><a href="#sideorders">SIDEORDERS</a></li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+		<div class="container-fluid">
+			<section class="row">
+				<img src="imgs/large/the.jpg" alt="te">
+				<h1 class="billedtekst">RESTAURANT PETROGRAD</h1>
+			</section>
+		</div>
+	</header>
+
+
+
+
+	<div class="container">
+		<section class="menudata">
+
+			<!--template tag -->
+
+
+			<div class="row">
+
+				<!-- OVERSKRIFTER TIL MENUER FORRETTER-->
+				<div class="col-lg-12">
+					<h1 class="page-header">FORRETTER</h1>
+				</div>
+			</div>
+			<article id="forretter" class="kategori forretter">
+
+				<!--Forret 1 -->
+
+				<div class="row">
+					<div class="col-sm-4 tekst menutekst_et">
+						<img src="imgs/medium/ringbroed-md.jpg" class="img-responsive" alt="mad">
+						<h4 class="kortBeskrivelse">Russisk ringbrød med vindruer</h4>
+
+						<p class="pris">Pris: 39 kr </p>
+						<p class="udsolgtJa">Udsolgt: Ja</p>
+
+						<button type="button" class="btn btn-default btn-sm modalknap col-sm-4" data-toggle="modal" data-target="#modalforret1">
+							Læs mere
+						</button>
+
+						<!-- Modalknap forret 1-->
+						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="myModalLabel">Info</h4>
+									</div>
+									<div class="modal-body">
+
+										<!-- dynamisk indhold forret 1-->
+										<p>
+											Beskrivelse: <span class="data_langBeskrivelse">LANGBESKRIVELSE</span>
+											<br> Rabat:
+											<span class="data_rabatsats">RABAT-PRIS</span>
+											<br> Vegetar:
+											<span class="data_vegetarJa">JA/NEJ</span>
+										</p>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- Forret 2 -->
+
+					<div class="col-sm-4 tekst menutekst_et">
+						<img src="imgs/medium/rodbede-cabanossi-md.jpg" class="img-responsive" alt="mad">
+						<h4 class="kortBeskrivelse">Cabanossi med rødbedecreme og løg
+</h4>
+
+						<p class="pris">Pris: 49 kr </p>
+						<p class="udsolgtJa">Udsolgt: Nej</p>
+
+						<button type="button" class="btn btn-default btn-sm modalknap col-sm-4" data-toggle="modal" data-target="#modalforret2">
+							Læs mere
+						</button>
+
+						<!-- Modalknap forret 2 -->
+						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="myModalLabel">Info</h4>
+									</div>
+
+
+									<!-- Dynamisk indhold forret 2-->
+									<div class="modal-body">
+										<p>
+											Beskrivelse: <span class="data_langBeskrivelse">LANGBESKRIVELSE</span>
+											<br> Rabat:
+											<span class="data_rabatsats">RABAT-PRIS</span>
+											<br> Vegetar:
+											<span class="data_vegetarJa">JA/NEJ</span>
+										</p>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- Forret 3 -->
+					<div class="col-sm-4 tekst menutekst_et">
+						<img src="imgs/medium/caviarbruschetta-md.jpg" class="img-responsive" alt="mad">
+						<h4 class="kortBeskrivelse">Brushcetta med russisk Caviar</h4>
+
+						<p class="pris">Pris: 49 kr </p>
+						<p class="udsolgtJa">Udsolgt: Nej</p>
+
+						<button type="button" class="btn btn-default btn-sm modalknap col-sm-4" data-toggle="modal" data-target="#modalforret3">
+							Læs mere
+						</button>
+
+						<!-- Modalknap forret 3 -->
+						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="myModalLabel">Info</h4>
+									</div>
+
+
+									<!-- Dynamisk indhold forret 3-->
+									<div class="modal-body">
+										<p>
+											Beskrivelse: <span class="data_langBeskrivelse">LANGBESKRIVELSE</span>
+											<br> Rabat:
+											<span class="data_rabatsats">RABAT-PRIS</span>
+											<br> Vegetar:
+											<span class="data_vegetarJa">JA/NEJ</span>
+										</p>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+
+
+			</article>
+			<!-- OVERSKRIFTER TIL MENUER HOVEDRETTER-->
+			<DIV class="container-fluid">
+				<h1>HOVEDRETTER</h1>
+			</DIV>
+
+
+
+
+			<!--template tag slut -->
+
+		</section>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js "></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
