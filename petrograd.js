@@ -34,6 +34,25 @@ function visProdukt(produkt) {
 	} else {
 		klon.querySelector(".pris").classList.add("udsolgt");
 	}
-	//appen klon til produkt_liste
-	document.querySelector(".produktliste").appendChild(klon);
+
+	if (produkt.udsolgt == true || produkt.rabatsats == 0) {
+		var rabatpris = klon.querySelector(".rabatpris");
+		rabatpris.parentNode.removeChild(rabatpris);
+	} else {
+		klon.querySelector(".pris").classList.add("rabat");
+	}
+	//append klon til produkt_liste
+	//document.querySelector(".produktliste").appendChild(klon);
+	if (produkt.kategori == "forretter") {
+		document.querySelector(".forretter").appendChild(klon);
+	} else if (produkt.kategori == "hovedretter") {
+		document.querySelector(".hovedretter").appendChild(klon);
+	} else if (produkt.kategori == "desserter") {
+		document.querySelector(".desserter").appendChild(klon);
+	} else if (produkt.kategori == "sideorders") {
+		document.querySelector(".sideorders").appendChild(klon);
+	} else if (produkt.kategori == "drikkevarer") {
+		document.querySelector(".drikkevarer").appendChild(klon);
+	}
+
 }

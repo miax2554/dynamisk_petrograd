@@ -55,3 +55,27 @@ button.modalknap {
 .udsolgt {
 	text-decoration: line-through;
 }
+
+.rabat {
+	text-decoration: line-through;
+}
+
+.forretter .menutekst_et:nth-child(3n+1) {
+	clear: both;
+}
+
+.hovedretter .menutekst_et:nth-child(3n+1) {
+	clear: both;
+}
+
+.sideorders .menutekst_et:nth-child(3n+1) {
+	clear: both;
+}
+
+.desserter .menutekst_et:nth-child(3n+1) {
+	clear: both;
+}
+
+.drikkevarer .menutekst_et:nth-child(3n+1) {
+	clear: both;
+}
