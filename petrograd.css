@@ -51,3 +51,7 @@ button.modalknap {
 .navbar-header {
 	background-color: white;
 }
+
+.udsolgt {
+	text-decoration: line-through;
+}
