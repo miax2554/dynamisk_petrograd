@@ -8,15 +8,33 @@ img {
 }
 
 .billedtekst {
+	font-family: 'Khand', sans-serif;
 	position: absolute;
 	top: 16vw;
 	left: 24vw;
 	color: white;
-	font-size: 66px;
+	font-size: 70px;
+}
+
+.footerbillede {
+	height: 250px;
+	margin-top: 3vw;
+}
+
+.footertekst {
+	position: absolute;
+	top: 479vw;
+	font-family: 'Khand', sans-serif;
+	color: white;
+	left: 24vw;
 }
 
 .tekst {
 	margin-top: 0.5vw;
+}
+
+body {
+	font-family: 'News Cycle', sans-serif;
 }
 
 .billede {
@@ -78,4 +96,10 @@ button.modalknap {
 
 .drikkevarer .menutekst_et:nth-child(3n+1) {
 	clear: both;
+}
+
+.page-header {
+	font-family: 'Khand', sans-serif;
+	font-size: 65px;
+	text-align: center;
 }
