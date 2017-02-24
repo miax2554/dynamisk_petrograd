@@ -121,40 +121,36 @@
 						<!-- skal kun vises ved rabat -->
 						<p class="udsolgttekst">Denne ret er desværre udsolgt</p>
 						<!-- skal kun vises hvis udsolgt -->
-						<button type="button" class="btn btn-default btn-sm modalknap col-sm-4" data-toggle="modal" data-target="#modalforret1">
+						<button data-id="UDSKIFT_MIG" type="button" class="btn btn-default btn-sm modalknap col-sm-4" data-toggle="modal" data-target="#myModal">
 							Læs mere
 						</button>
 					</div>
 				</template>
-				<!-- Modalknap forret 1-->
-				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-					<div class="modal-dialog" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								<h4 class="modal-title" id="myModalLabel">Info</h4>
-							</div>
-							<div class="modal-body">
 
-								<!-- dynamisk indhold forret 1-->
-								<p>
-									Beskrivelse: <span class="data_langBeskrivelse">LANGBESKRIVELSE</span>
-									<br> Vegetar:
-									<span class="data_vegetar">JA/NEJ</span>
-								</p>
-
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-
-
-
-				<!--template tag slut -->
 			</div>
 		</section>
+	</div>
+
+	<!-- Modalknap forret 1-->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Info</h4>
+				</div>
+				<div class="modal-body">
+
+					<!-- dynamisk indhold forret 1-->
+					<!--<img class="data_billede" src="" alt="modal">-->
+					<p></p>
+					<p class="data_oprindelsesregion"></p>
+
+
+				</div>
+			</div>
+		</div>
+
 	</div>
 	<footer>
 		<div class="container-fluid">
